@@ -1,10 +1,9 @@
 import { Request, Response } from "express";
 import axios from "axios";
 import cheerio from "cheerio";
-import { getLastPagination } from "../../services/otomoto";
+import { addItems, getLastPagination, getTotalAdsCount } from "../../services/otomoto";
 import { PAGINATION_SELECTOR } from "../../utils/constant";
 import { Item } from "../../models/Item";
-
 
 const scrapData =  async (req: Request, res : Response) => {
     const url = process.env.INITIAL_URL!;
@@ -12,17 +11,11 @@ const scrapData =  async (req: Request, res : Response) => {
     const $ = cheerio.load(otomotoRes.data);
 
     const lastPaginition = getLastPagination($,PAGINATION_SELECTOR)
-
+    const totalAds = getTotalAdsCount($)
     const allAds = $('article[data-testid="listing-ad"]');
-    const data: object[] = []
-    allAds.map((index,element) => {
-        data.push({
-            id: $(element).attr('id'),
-            url: $(element).find('a').attr('href')
-        })
-    })
+    const items = addItems($);
 
-    res.status(200).json(data);
+    res.status(200).json({totalAds,items,lastPaginition});
 }
 
 const scrapDataByPage = async (req: Request, res : Response) => {

@@ -1,5 +1,6 @@
 import cheerio from "cheerio";
 import { Item } from "../models/Item";
+import { ITEM_SELECTOR } from "../utils/constant";
 
 // get last pagination 
 const getLastPagination = ($ : cheerio.Root,selector : string) : number => {
@@ -19,7 +20,7 @@ const getNextPageUrl = (url : string,currentPage: number,lastPagination : number
 /*Add addItems function that fetches item urls,
 item ids (unique ids that the portal uses) from list page */
 const addItems = ($ : cheerio.Root) : Item[] => {
-    const allAds = $('article[data-testid="listing-ad"]');
+    const allAds = $(ITEM_SELECTOR);
     const items : Item[] = []
 
     allAds.map((index,element) => {
@@ -30,4 +31,11 @@ const addItems = ($ : cheerio.Root) : Item[] => {
     })
     return items;
 }
-export { getLastPagination,getNextPageUrl,addItems };
+
+// shows how many total ads exist for the provided initial url
+const getTotalAdsCount = ($ : cheerio.Root) : number => {
+    const allAds = $(ITEM_SELECTOR);
+    return allAds.length;
+}
+
+export { getLastPagination,getNextPageUrl,addItems,getTotalAdsCount };
