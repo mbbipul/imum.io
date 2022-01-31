@@ -1,4 +1,5 @@
 import cheerio from "cheerio";
+import { Item } from "../models/Item";
 
 // get last pagination 
 const getLastPagination = ($ : cheerio.Root,selector : string) : number => {
@@ -15,4 +16,18 @@ const getNextPageUrl = (url : string,currentPage: number,lastPagination : number
     return url;
 }
 
-export { getLastPagination,getNextPageUrl };
+/*Add addItems function that fetches item urls,
+item ids (unique ids that the portal uses) from list page */
+const addItems = ($ : cheerio.Root) : Item[] => {
+    const allAds = $('article[data-testid="listing-ad"]');
+    const items : Item[] = []
+
+    allAds.map((index,element) => {
+        items.push({
+            id: $(element).attr('id')!,
+            url: $(element).find('a').attr('href')!
+        })
+    })
+    return items;
+}
+export { getLastPagination,getNextPageUrl,addItems };
