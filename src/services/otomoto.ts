@@ -1,6 +1,8 @@
+import axios from "axios";
 import cheerio from "cheerio";
 import { Item } from "../models/Item";
-import { ITEM_SELECTOR } from "../utils/constant";
+import { Truck } from "../models/Truck";
+import { ADS_PRICE_SELECTOR, ADS_TITLE_SELECTOR, ITEM_SELECTOR, PAGINATION_SELECTOR } from "../utils/constant";
 
 // get last pagination 
 const getLastPagination = ($ : cheerio.Root,selector : string) : number => {
@@ -38,4 +40,20 @@ const getTotalAdsCount = ($ : cheerio.Root) : number => {
     return allAds.length;
 }
 
-export { getLastPagination,getNextPageUrl,addItems,getTotalAdsCount };
+const getItemDetailsPage = async (url : string) : Promise<cheerio.Root> => {
+    const otomotoRes = await axios.get(url);
+    const $ = cheerio.load(otomotoRes.data);
+    return $;
+}
+
+const scrapeTruckItem = (allItems : Item[]) : Truck[] => {
+    const trucks : Truck[] = []
+    allItems.map((item,index) => {
+        getItemDetailsPage(item.url).then(($) => {
+            // console.log('hj '+$.f)
+        })
+    })
+    return trucks;
+}
+
+export { getLastPagination,getNextPageUrl,addItems,getTotalAdsCount,scrapeTruckItem };

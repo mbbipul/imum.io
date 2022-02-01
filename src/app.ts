@@ -1,23 +1,22 @@
-import express from 'express';
-import 'express-async-errors';
-import { json } from 'body-parser';
-import { NotFoundError } from './errors/not-found-error';
-import { errorHandler } from './middlewares/error-handler';
-import { scrappingRouter } from './routes';
+import axios from "axios";
+import cheerio from "cheerio";
+import { addItems, getLastPagination, getTotalAdsCount, scrapeTruckItem } from "./services/otomoto";
+import { PAGINATION_SELECTOR } from "./utils/constant";
+import 'dotenv/config';
 
-const app = express();
-app.set('trust proxy', true);
-app.use(json());
+const scrapData =  async () => {
+    const url = process.env.INITIAL_URL!;
+    const otomotoRes = await axios.get(url);
+    const $ = cheerio.load(otomotoRes.data);
 
-app.use('/api',scrappingRouter);
-app.use('/hello',async (req,res) => {
-	res.send('Hello World');
-});
+    const lastPaginition = getLastPagination($,PAGINATION_SELECTOR)
+    const totalAds = getTotalAdsCount($)
+    const allAds = $('article[data-testid="listing-ad"]');
+    const items = addItems($);
+    // scrapeTruckItem(items);
+	console.log(`Total ads: ${totalAds}`);
+	console.log(`Last pagination: ${lastPaginition}`);
+	console.log(`Items: ${items.length}`);
+}
 
-app.all('*', async (req, res) => {
-  	throw new NotFoundError();
-});
-
-app.use(errorHandler);
-
-export { app };
+scrapData();
