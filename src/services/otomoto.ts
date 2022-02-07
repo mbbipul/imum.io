@@ -76,11 +76,11 @@ const formatePower = (power_string : string) : string => {
 
 //scrapeTruckItem function - that scrapes the actual ads 
 const scrapeTruckItem = async (allItems : Item[],page : number) : Promise<Truck[]> => {
-    console.log(`Scraping ${allItems.length} items`)
+    global.logger.info(`Scraping ${allItems.length} items`)
     const trucks : Truck[] = []
     await Promise.all(
         allItems.map(async (item,index) => {
-            console.log(`Scraping item ${index+1}/${allItems.length} of page ${page}.....`)
+            global.logger.info(`Scraping item ${index+1}/${allItems.length} of page ${page}.....`)
             const $ = await getItemDetailsPage(item.url)
             if(!$) return 
 

@@ -1,7 +1,6 @@
 import axios, { Axios } from "axios";
 import cheerio from "cheerio";
 import { HttpsProxyAgent } from "https-proxy-agent";
-import { logError } from "../utils/log";
 
 const isIpValid = (ipAddress: string) => {
     return /^(?:(?:^|\.)(?:2(?:5[0-5]|[0-4]\d)|1?\d?\d)){4}$/.test(ipAddress)
@@ -71,11 +70,11 @@ const createAxios = async (retry: number) : Promise<Axios> => {
     _axios.interceptors.response.use((config) => config, async (error) => {
         if (error.config && error.response && error.response.status === 403) {
             if (retry_count[403] > retry) {
-                logError('Retries error "403" more than 3 times, exiting request');
-                console.log(`failed url ${error.config.url}`);
+                global.logger.error('Retries error "403" more than 3 times, exiting request');
+                global.logger.error(`failed url ${error.config.url}`);
                 return Promise.resolve(error);
             }
-            logError('Bot detection, retrying ');
+            global.logger.error('Bot detection, retrying ');
             retry_count[403]++;
             return _axios.request({
                 method: error.config.method,
@@ -86,12 +85,12 @@ const createAxios = async (retry: number) : Promise<Axios> => {
         // Server errors 5xx retry
         if (error.config && error.response && error.response.status >= 500) {
             if (retry_count[500] > retry) {
-                logError('Retries error 5xx more than 3 times, exiting request');
-                console.log(`failed url ${error.config.url}`);
+                global.logger.error('Retries error 5xx more than 3 times, exiting request');
+                global.logger.error(`failed url ${error.config.url}`);
                 return Promise.resolve(error);
             }
             retry_count[500]++;
-            logError(`${error.repsonse.status} server error, repeating request`);
+            global.logger.error(`${error.repsonse.status} server error, repeating request`);
             return _axios.request({
                 method: error.config.method,
                 url: error.config.url,
@@ -104,17 +103,17 @@ const createAxios = async (retry: number) : Promise<Axios> => {
         }
 
         if (error.config && error.response && error.response.status === 404) {
-            logError(`${error.response.status} not found, exiting request`);
+            global.logger.error(`${error.response.status} not found, exiting request`);
         }
 
         // Other errors
         if (retry_count.other > retry) {
-            logError('Retries other errors more than 3 times, exiting request');
-            console.log(`failed url ${error.config.url}`);
+            global.logger.error('Retries other errors more than 3 times, exiting request');
+            global.logger.error(`failed url ${error.config.url}`);
             return Promise.resolve(error);
         }
         retry_count.other++;
-        logError(`Somethig went wrong, repeating request`);
+        global.logger.error(`Somethig went wrong, repeating request`);
         return _axios.request({
             method: error.config.method,
             url: error.config.url,
