@@ -1,74 +1,78 @@
 import  { Axios } from "axios";
 import cheerio from "cheerio";
-import { addItems, getLastPagination, getNextPageUrl, getTotalAdsCount, scrapeTruckItem } from "./services/otomoto";
+import { getLastPagination, getNextPageUrl } from "./services/otomoto";
 import {  MIN_EXPECTED_TOTAL_PAGE, PAGINATION_SELECTOR } from "./utils/constant";
 import 'dotenv/config';
 import fs from 'fs';
-import { createAxios } from "./services/_axios";
 import { Truck } from "./models/Truck";
 import { logMessage } from "./utils/log";
 import { ScrapeWorker } from "./worker";
+import { createAxios } from "./services/_axios";
+import { Item } from "./models/Item";
 
-const getTotalPageNumber = async (axios : Axios,count : number,retry: number) => {
-    const otomotoRes = await axios.get(process.env.INITIAL_URL!);
+declare global {
+    namespace NodeJS {
+        interface Global {
+            axios: Axios;
+        }
+    }
+}
+
+const getTotalPageNumber = async (count : number,retry: number) => {
+    const otomotoRes = await global.axios.get(process.env.INITIAL_URL!);
     const $ = cheerio.load(otomotoRes.data);
     let lastPagination = getLastPagination($,PAGINATION_SELECTOR)
     if(lastPagination < MIN_EXPECTED_TOTAL_PAGE && count < retry){
         logMessage(`Minimum Expected ${MIN_EXPECTED_TOTAL_PAGE} pages, got ${lastPagination}. Retrying attempt ${count+1} ....`)
-        lastPagination = await getTotalPageNumber(axios,count+1,retry)
+        lastPagination = await getTotalPageNumber(count+1,retry)
     }
     return lastPagination
 }
 
 
 const main = async (retry: number) => {
-    const start = new Date().getTime();
+    global.axios = await createAxios(3);
     const INITIAL_URL = process.env.INITIAL_URL!;
 
-    const _axios = await createAxios(retry);
-
-    let totalPageNumber = await getTotalPageNumber(_axios,0,retry)
+    let totalPageNumber = await getTotalPageNumber(0,retry)
 
     logMessage(`Total pages: ${totalPageNumber}`);
+
+    let totalAdsForInitialLink : number = 0;
+
     let url = INITIAL_URL;
-    let total: Truck[] = []
+
+    const data = {
+        totalAdsForInitialLink,
+        items : [] as Item[],
+        truckItem: [] as Truck[],
+        totalAds: 0,
+    }
+
     for(let i = 1; i <= totalPageNumber; i++){
         let checkExpected = i !== totalPageNumber;
-        const worker = new ScrapeWorker(_axios,url,i,retry,checkExpected)
+        const worker = new ScrapeWorker(url,i,retry,checkExpected)
         let all = await worker.run(0)
-        total = total.concat(all)
+        if(i === 1){
+            totalAdsForInitialLink = all.truckItem.length
+        }
+        data.items = [...data.items, ...all.items]
+        data.truckItem = [...data.truckItem, ...all.truckItem]
         url = getNextPageUrl(url,i)
     }
-    console.log(total.length)
-    console.log(`Total time: ${new Date().getTime() - start} ms`);
-}
 
-main(3);
+    data.totalAdsForInitialLink = totalAdsForInitialLink
+    data.totalAds = data.truckItem.length
 
-
-
-const scrapData =  async () => {
-    const _axios = await createAxios(3);
-    const otomotoRes = await _axios.get(process.env.INITIAL_URL!);
-    const $ = cheerio.load(otomotoRes.data);
-
-    const totalAds = getTotalAdsCount($)
-    const items = addItems($);
-    const truckItem = await scrapeTruckItem(items,_axios);
-    
-    const data = {
-        totalAds,
-        items,
-        truckItem
-    }
+    logMessage(`Total ads scraped: ${data.totalAds}`)
+  
     fs.writeFile('data.json', JSON.stringify(data,null,4), 'utf8', (err) => {
         if (err) {
             console.error(err);
             return;
         }
-        console.log('File has been created');
+        console.log('Scraped data saved to data.json');
     });
-
 }
 
-// scrapData()
+main(3);

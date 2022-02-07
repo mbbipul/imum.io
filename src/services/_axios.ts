@@ -124,18 +124,4 @@ const createAxios = async (retry: number) : Promise<Axios> => {
     return _axios;
 }
 
-// declare global {
-//     namespace NodeJS {
-//         interface Global {
-//             axios: Axios;
-//         }
-//     }
-// }
-
-// (async function() {
-//     global.axios = await createAxios(3);
-// })()
-
-export {
-    createAxios
-}
+export { createAxios };

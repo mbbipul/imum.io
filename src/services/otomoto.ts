@@ -1,4 +1,3 @@
-import { Axios } from "axios";
 import cheerio from "cheerio";
 import { Item } from "../models/Item";
 import { Truck } from "../models/Truck";
@@ -37,8 +36,9 @@ const getTotalAdsCount = ($ : cheerio.Root) : number => {
     return allAds.length;
 }
 
-const getItemDetailsPage = async (_axios : Axios,url : string) : Promise<cheerio.Root | null>  => {
-    const otomotoRes = await _axios.get(url);
+// get item details page
+const getItemDetailsPage = async (url : string) : Promise<cheerio.Root | null>  => {
+    const otomotoRes = await global.axios.get(url);
     if (otomotoRes.status !== 200) return null
     const $ = cheerio.load(otomotoRes.data);
     return $;
@@ -74,15 +74,16 @@ const formatePower = (power_string : string) : string => {
     return `${power} ${unit}`.trim()
 }
 
-const scrapeTruckItem = async (allItems : Item[],_axios : Axios) : Promise<Truck[]> => {
+//scrapeTruckItem function - that scrapes the actual ads 
+const scrapeTruckItem = async (allItems : Item[],page : number) : Promise<Truck[]> => {
     console.log(`Scraping ${allItems.length} items`)
     const trucks : Truck[] = []
     await Promise.all(
         allItems.map(async (item,index) => {
-            console.log(`Scraping item ${index+1}/${allItems.length}`)
-            const $ = await getItemDetailsPage(_axios,item.url)
+            console.log(`Scraping item ${index+1}/${allItems.length} of page ${page}.....`)
+            const $ = await getItemDetailsPage(item.url)
             if(!$) return 
-            
+
             const titleEle = $(ADS_TITLE_SELECTOR);
             const priceEle = $(ADS_PRICE_SELECTOR);
             const regisEle = $(ADS_REGISTRATION_DATE_SELECTOR);
