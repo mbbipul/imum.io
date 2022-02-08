@@ -70,12 +70,12 @@ const main = async (retry: number) => {
 
     global.logger.info(`Total ads scraped: ${data.totalAds}`)
   
-    fs.writeFile('data.json', JSON.stringify(data,null,4), 'utf8', (err) => {
+    fs.writeFile(process.env.OUTPUT_DIR+'data.json', JSON.stringify(data,null,4), 'utf8', (err) => {
         if (err) {
             global.logger.error("Failed to write ads to file");
             return;
         }
-        global.logger.info('Scraped data saved to data.json');
+        global.logger.info(`Scraped data saved to ${process.env.OUTPUT_DIR}data.json`);
     });
 }
 

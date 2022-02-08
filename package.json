@@ -5,14 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "ts-node-dev src/app.ts",
-    "test": "jest --runInBand --watchAll --no-cache"
-  },
-  "jest": {
-    "preset": "ts-jest",
-    "testEnvironment": "node",
-    "setupFilesAfterEnv": [
-      "./src/test/setup.ts"
-    ]
+    "start_mobile": "ts-node-dev src/mobile.ts"
   },
   "keywords": [],
   "author": "",

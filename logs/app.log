@@ -1,0 +1,580 @@
+Mon, 07 Feb 2022 19:10:47 GMT | ERROR | app.log | Somethig went wrong, repeating request | 
+Mon, 07 Feb 2022 19:10:49 GMT | INFO | app.log | Total pages: 8 | 
+Mon, 07 Feb 2022 19:10:49 GMT | INFO | app.log | Worker created for page 1 | 
+Mon, 07 Feb 2022 19:10:49 GMT | INFO | app.log | Scraping page 1...... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Total ads found 32 | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping 32 items | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 1/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 2/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 3/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 4/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 5/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 6/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 7/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 8/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 9/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 10/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 11/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 12/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 13/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 14/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 15/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 16/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 17/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 18/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 19/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 20/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 21/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 22/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 23/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 24/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 25/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 26/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 27/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 28/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 29/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 30/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 31/32 of page 1..... | 
+Mon, 07 Feb 2022 19:10:51 GMT | INFO | app.log | Scraping item 32/32 of page 1..... | 
+Mon, 07 Feb 2022 19:11:02 GMT | INFO | app.log | Page 1 has 32 items | 
+Mon, 07 Feb 2022 19:11:02 GMT | INFO | app.log | Successfully scraped 32 items of page 1 | 
+Mon, 07 Feb 2022 19:11:02 GMT | INFO | app.log | Worker created for page 2 | 
+Mon, 07 Feb 2022 19:11:02 GMT | INFO | app.log | Scraping page 2...... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Total ads found 32 | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping 32 items | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 1/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 2/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 3/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 4/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 5/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 6/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 7/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 8/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 9/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 10/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 11/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 12/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 13/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 14/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 15/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 16/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 17/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 18/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 19/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 20/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 21/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 22/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 23/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 24/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 25/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 26/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 27/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 28/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 29/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 30/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 31/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:04 GMT | INFO | app.log | Scraping item 32/32 of page 2..... | 
+Mon, 07 Feb 2022 19:11:26 GMT | ERROR | app.log | Somethig went wrong, repeating request | 
+Mon, 07 Feb 2022 19:11:26 GMT | ERROR | app.log | Somethig went wrong, repeating request | 
+Mon, 07 Feb 2022 19:11:26 GMT | ERROR | app.log | Somethig went wrong, repeating request | 
+Mon, 07 Feb 2022 19:11:27 GMT | ERROR | app.log | Retries other errors more than 3 times, exiting request | 
+Mon, 07 Feb 2022 19:11:27 GMT | ERROR | app.log | failed url https://www.otomoto.pl/oferta/mercedes-benz-ciagnik-siodlowy-mercedes-benz-actros-2651-ID6E35sj.html | 
+Mon, 07 Feb 2022 19:11:27 GMT | ERROR | app.log | Retries other errors more than 3 times, exiting request | 
+Mon, 07 Feb 2022 19:11:27 GMT | ERROR | app.log | failed url https://www.otomoto.pl/oferta/mercedes-benz-actros-1845-actros-1845-low-deck-mega-euro-6-automat-naczepa-kaessbohrer-2017-ID6EnOOb.html | 
+Mon, 07 Feb 2022 19:11:27 GMT | ERROR | app.log | Retries other errors more than 3 times, exiting request | 
+Mon, 07 Feb 2022 19:11:27 GMT | ERROR | app.log | failed url https://www.otomoto.pl/oferta/mercedes-benz-actros-mega-mercedes-actros-1845-low-deck-euro-6-ID6E5qjB.html | 
+Mon, 07 Feb 2022 19:11:28 GMT | ERROR | app.log | Retries other errors more than 3 times, exiting request | 
+Mon, 07 Feb 2022 19:11:28 GMT | ERROR | app.log | failed url https://www.otomoto.pl/oferta/mercedes-benz-actros-ID6EiHb1.html | 
+Mon, 07 Feb 2022 19:11:28 GMT | ERROR | app.log | Retries other errors more than 3 times, exiting request | 
+Mon, 07 Feb 2022 19:11:28 GMT | ERROR | app.log | failed url https://www.otomoto.pl/oferta/mercedes-benz-2848-6x4-actros-ID6EeB3M.html | 
+Mon, 07 Feb 2022 19:11:28 GMT | ERROR | app.log | Retries other errors more than 3 times, exiting request | 
+Mon, 07 Feb 2022 19:11:28 GMT | ERROR | app.log | failed url https://www.otomoto.pl/oferta/mercedes-benz-actros-1845-big-space-euro-6-ID6Ef2RC.html | 
+Mon, 07 Feb 2022 19:11:28 GMT | ERROR | app.log | Retries other errors more than 3 times, exiting request | 
+Mon, 07 Feb 2022 19:11:28 GMT | ERROR | app.log | failed url https://www.otomoto.pl/oferta/mercedes-benz-actros-1843-euro-6-2015-r-ID6DRtIk.html | 
+Mon, 07 Feb 2022 19:11:28 GMT | ERROR | app.log | Retries other errors more than 3 times, exiting request | 
+Mon, 07 Feb 2022 19:11:28 GMT | ERROR | app.log | failed url https://www.otomoto.pl/oferta/mercedes-benz-actros-1843-4x2-2015-rok-euro-6-z-francji-ID6Edu3r.html | 
+Mon, 07 Feb 2022 19:11:28 GMT | ERROR | app.log | Retries other errors more than 3 times, exiting request | 
+Mon, 07 Feb 2022 19:11:28 GMT | ERROR | app.log | failed url https://www.otomoto.pl/oferta/mercedes-benz-actros-1848-gigaspace-lowdec-bez-retardera-po-serwisie-navi-xenon-xii-2017-ID6EqTXD.html | 
+Mon, 07 Feb 2022 19:11:28 GMT | ERROR | app.log | Retries other errors more than 3 times, exiting request | 
+Mon, 07 Feb 2022 19:11:28 GMT | ERROR | app.log | failed url https://www.otomoto.pl/oferta/mercedes-benz-actros-1848ls-mercedes-benz-actros-1848ls-ID6EjyR9.html | 
+Mon, 07 Feb 2022 19:13:03 GMT | ERROR | app.log | Retries other errors more than 3 times, exiting request | 
+Mon, 07 Feb 2022 19:13:03 GMT | ERROR | app.log | failed url https://www.otomoto.pl/oferta/mercedes-benz-actros-1843-kola-315-70-z-francji-stan-bdb-ID6EqPEP.html | 
+Mon, 07 Feb 2022 19:13:03 GMT | INFO | app.log | Page 2 has 21 items | 
+Mon, 07 Feb 2022 19:13:03 GMT | INFO | app.log | Expected 32 items, but got 21, retrying page 2 | 
+Mon, 07 Feb 2022 19:13:03 GMT | INFO | app.log | Scraping page 2...... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Total ads found 32 | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping 32 items | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 1/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 2/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 3/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 4/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 5/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 6/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 7/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 8/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 9/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 10/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 11/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 12/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 13/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 14/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 15/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 16/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 17/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 18/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 19/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 20/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 21/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 22/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 23/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 24/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 25/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 26/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 27/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 28/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 29/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 30/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 31/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:22 GMT | INFO | app.log | Scraping item 32/32 of page 2..... | 
+Mon, 07 Feb 2022 19:13:36 GMT | INFO | app.log | Page 2 has 32 items | 
+Mon, 07 Feb 2022 19:13:36 GMT | INFO | app.log | Successfully scraped 32 items of page 2 | 
+Mon, 07 Feb 2022 19:13:36 GMT | INFO | app.log | Successfully scraped 32 items of page 2 | 
+Mon, 07 Feb 2022 19:13:36 GMT | INFO | app.log | Worker created for page 3 | 
+Mon, 07 Feb 2022 19:13:36 GMT | INFO | app.log | Scraping page 3...... | 
+Mon, 07 Feb 2022 19:13:39 GMT | INFO | app.log | Total ads found 0 | 
+Mon, 07 Feb 2022 19:13:39 GMT | INFO | app.log | Scraping 0 items | 
+Mon, 07 Feb 2022 19:13:39 GMT | INFO | app.log | Page 3 has 0 items | 
+Mon, 07 Feb 2022 19:13:39 GMT | INFO | app.log | Expected 32 items, but got 0, retrying page 3 | 
+Mon, 07 Feb 2022 19:13:39 GMT | INFO | app.log | Scraping page 3...... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Total ads found 32 | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping 32 items | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 1/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 2/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 3/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 4/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 5/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 6/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 7/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 8/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 9/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 10/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 11/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 12/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 13/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 14/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 15/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 16/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 17/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 18/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 19/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 20/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 21/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 22/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 23/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 24/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 25/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 26/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 27/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 28/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 29/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 30/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 31/32 of page 3..... | 
+Mon, 07 Feb 2022 19:13:41 GMT | INFO | app.log | Scraping item 32/32 of page 3..... | 
+Mon, 07 Feb 2022 19:14:01 GMT | INFO | app.log | Page 3 has 32 items | 
+Mon, 07 Feb 2022 19:14:01 GMT | INFO | app.log | Successfully scraped 32 items of page 3 | 
+Mon, 07 Feb 2022 19:14:01 GMT | INFO | app.log | Successfully scraped 32 items of page 3 | 
+Mon, 07 Feb 2022 19:14:01 GMT | INFO | app.log | Worker created for page 4 | 
+Mon, 07 Feb 2022 19:14:01 GMT | INFO | app.log | Scraping page 4...... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Total ads found 32 | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping 32 items | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 1/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 2/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 3/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 4/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 5/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 6/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 7/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 8/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 9/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 10/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 11/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 12/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 13/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 14/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 15/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 16/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 17/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 18/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 19/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 20/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 21/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 22/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 23/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 24/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 25/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 26/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 27/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 28/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 29/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 30/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 31/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:08 GMT | INFO | app.log | Scraping item 32/32 of page 4..... | 
+Mon, 07 Feb 2022 19:14:21 GMT | INFO | app.log | Page 4 has 32 items | 
+Mon, 07 Feb 2022 19:14:21 GMT | INFO | app.log | Successfully scraped 32 items of page 4 | 
+Mon, 07 Feb 2022 19:14:21 GMT | INFO | app.log | Worker created for page 5 | 
+Mon, 07 Feb 2022 19:14:21 GMT | INFO | app.log | Scraping page 5...... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Total ads found 32 | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping 32 items | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 1/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 2/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 3/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 4/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 5/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 6/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 7/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 8/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 9/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 10/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 11/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 12/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 13/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 14/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 15/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 16/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 17/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 18/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 19/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 20/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 21/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 22/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 23/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 24/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 25/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 26/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 27/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 28/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 29/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 30/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 31/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:24 GMT | INFO | app.log | Scraping item 32/32 of page 5..... | 
+Mon, 07 Feb 2022 19:14:38 GMT | INFO | app.log | Page 5 has 32 items | 
+Mon, 07 Feb 2022 19:14:38 GMT | INFO | app.log | Successfully scraped 32 items of page 5 | 
+Mon, 07 Feb 2022 19:14:38 GMT | INFO | app.log | Worker created for page 6 | 
+Mon, 07 Feb 2022 19:14:38 GMT | INFO | app.log | Scraping page 6...... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Total ads found 32 | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping 32 items | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 1/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 2/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 3/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 4/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 5/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 6/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 7/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 8/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 9/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 10/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 11/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 12/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 13/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 14/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 15/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 16/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 17/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 18/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 19/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 20/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 21/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 22/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 23/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 24/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 25/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 26/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 27/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 28/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 29/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 30/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 31/32 of page 6..... | 
+Mon, 07 Feb 2022 19:14:42 GMT | INFO | app.log | Scraping item 32/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:00 GMT | ERROR | app.log | Retries other errors more than 3 times, exiting request | 
+Mon, 07 Feb 2022 19:16:00 GMT | ERROR | app.log | failed url https://www.otomoto.pl/oferta/mercedes-benz-actros-1845-ls-4x2-bigspace-pc-ID6EqBQD.html | 
+Mon, 07 Feb 2022 19:16:00 GMT | INFO | app.log | Page 6 has 31 items | 
+Mon, 07 Feb 2022 19:16:00 GMT | INFO | app.log | Expected 32 items, but got 31, retrying page 6 | 
+Mon, 07 Feb 2022 19:16:00 GMT | INFO | app.log | Scraping page 6...... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Total ads found 32 | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping 32 items | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 1/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 2/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 3/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 4/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 5/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 6/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 7/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 8/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 9/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 10/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 11/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 12/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 13/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 14/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 15/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 16/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 17/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 18/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 19/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 20/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 21/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 22/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 23/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 24/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 25/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 26/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 27/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 28/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 29/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 30/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 31/32 of page 6..... | 
+Mon, 07 Feb 2022 19:16:05 GMT | INFO | app.log | Scraping item 32/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:18 GMT | ERROR | app.log | Retries other errors more than 3 times, exiting request | 
+Mon, 07 Feb 2022 19:17:18 GMT | ERROR | app.log | failed url https://www.otomoto.pl/oferta/mercedes-benz-actros-1845-low-deck-spalanie-25l-100-stan-perfekcyjny-po-kontrakcie-serwisowym-ID6Enjtv.html | 
+Mon, 07 Feb 2022 19:17:25 GMT | ERROR | app.log | Retries other errors more than 3 times, exiting request | 
+Mon, 07 Feb 2022 19:17:25 GMT | ERROR | app.log | failed url https://www.otomoto.pl/oferta/mercedes-benz-1845-kompresor-ID6En10C.html | 
+Mon, 07 Feb 2022 19:17:25 GMT | INFO | app.log | Page 6 has 30 items | 
+Mon, 07 Feb 2022 19:17:25 GMT | INFO | app.log | Expected 32 items, but got 30, retrying page 6 | 
+Mon, 07 Feb 2022 19:17:25 GMT | INFO | app.log | Scraping page 6...... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Total ads found 32 | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping 32 items | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 1/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 2/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 3/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 4/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 5/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 6/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 7/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 8/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 9/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 10/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 11/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 12/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 13/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 14/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 15/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 16/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 17/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 18/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 19/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 20/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 21/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 22/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 23/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 24/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 25/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 26/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 27/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 28/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 29/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 30/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 31/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:35 GMT | INFO | app.log | Scraping item 32/32 of page 6..... | 
+Mon, 07 Feb 2022 19:17:53 GMT | INFO | app.log | Page 6 has 32 items | 
+Mon, 07 Feb 2022 19:17:53 GMT | INFO | app.log | Successfully scraped 32 items of page 6 | 
+Mon, 07 Feb 2022 19:17:53 GMT | INFO | app.log | Successfully scraped 32 items of page 6 | 
+Mon, 07 Feb 2022 19:17:53 GMT | INFO | app.log | Successfully scraped 32 items of page 6 | 
+Mon, 07 Feb 2022 19:17:53 GMT | INFO | app.log | Worker created for page 7 | 
+Mon, 07 Feb 2022 19:17:53 GMT | INFO | app.log | Scraping page 7...... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Total ads found 32 | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping 32 items | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 1/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 2/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 3/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 4/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 5/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 6/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 7/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 8/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 9/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 10/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 11/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 12/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 13/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 14/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 15/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 16/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 17/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 18/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 19/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 20/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 21/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 22/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 23/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 24/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 25/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 26/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 27/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 28/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 29/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 30/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 31/32 of page 7..... | 
+Mon, 07 Feb 2022 19:17:56 GMT | INFO | app.log | Scraping item 32/32 of page 7..... | 
+Mon, 07 Feb 2022 19:19:04 GMT | ERROR | app.log | Retries other errors more than 3 times, exiting request | 
+Mon, 07 Feb 2022 19:19:04 GMT | ERROR | app.log | failed url https://www.otomoto.pl/oferta/mercedes-benz-actros-1845-big-space-acc-10-2016-salon-pl-jak-nowy-standard-serwis-mercedes-salon-pl-idealny-ID6EoJxN.html | 
+Mon, 07 Feb 2022 19:19:44 GMT | ERROR | app.log | Retries other errors more than 3 times, exiting request | 
+Mon, 07 Feb 2022 19:19:44 GMT | ERROR | app.log | failed url https://www.otomoto.pl/oferta/mercedes-benz-actros-1845-low-deck-retarder-fleetboard-mega-z-niemiec-euro-6-ID6Eqhk3.html | 
+Mon, 07 Feb 2022 19:19:44 GMT | ERROR | app.log | Retries other errors more than 3 times, exiting request | 
+Mon, 07 Feb 2022 19:19:44 GMT | ERROR | app.log | failed url https://www.otomoto.pl/oferta/mercedes-benz-actros-1848-actros-1848-euro-6-xenonacclow-linerzadbany-ID6E7eg8.html | 
+Mon, 07 Feb 2022 19:19:44 GMT | INFO | app.log | Page 7 has 29 items | 
+Mon, 07 Feb 2022 19:19:44 GMT | INFO | app.log | Expected 32 items, but got 29, retrying page 7 | 
+Mon, 07 Feb 2022 19:19:44 GMT | INFO | app.log | Scraping page 7...... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Total ads found 32 | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping 32 items | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 1/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 2/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 3/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 4/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 5/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 6/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 7/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 8/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 9/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 10/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 11/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 12/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 13/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 14/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 15/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 16/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 17/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 18/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 19/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 20/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 21/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 22/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 23/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 24/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 25/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 26/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 27/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 28/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 29/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 30/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 31/32 of page 7..... | 
+Mon, 07 Feb 2022 19:20:03 GMT | INFO | app.log | Scraping item 32/32 of page 7..... | 
+Mon, 07 Feb 2022 19:21:26 GMT | ERROR | app.log | Retries other errors more than 3 times, exiting request | 
+Mon, 07 Feb 2022 19:21:26 GMT | ERROR | app.log | failed url https://www.otomoto.pl/oferta/mercedes-benz-actros-1851-mercedes-benz-actros-5-1851-2022r-ID6EqngT.html | 
+Mon, 07 Feb 2022 19:21:38 GMT | ERROR | app.log | Retries other errors more than 3 times, exiting request | 
+Mon, 07 Feb 2022 19:21:38 GMT | ERROR | app.log | failed url https://www.otomoto.pl/oferta/mercedes-benz-actros-1845-porzadny-stan-bogata-wersja-radar-webasto-grzany-fotel-ID6ElI6h.html | 
+Mon, 07 Feb 2022 19:21:39 GMT | ERROR | app.log | Retries other errors more than 3 times, exiting request | 
+Mon, 07 Feb 2022 19:21:39 GMT | ERROR | app.log | failed url https://www.otomoto.pl/oferta/mercedes-benz-actros-1853-acc-xenon-asystent-skretu-sprowadzony-ID6EqgK7.html | 
+Mon, 07 Feb 2022 19:21:44 GMT | ERROR | app.log | Retries other errors more than 3 times, exiting request | 
+Mon, 07 Feb 2022 19:21:44 GMT | ERROR | app.log | failed url https://www.otomoto.pl/oferta/mercedes-benz-actros-1842-standard-gigaspace-bez-retardera-po-serwisie-ID6Eq8hk.html | 
+Mon, 07 Feb 2022 19:21:44 GMT | INFO | app.log | Page 7 has 28 items | 
+Mon, 07 Feb 2022 19:21:44 GMT | INFO | app.log | Expected 32 items, but got 28, retrying page 7 | 
+Mon, 07 Feb 2022 19:21:44 GMT | INFO | app.log | Scraping page 7...... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Total ads found 32 | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping 32 items | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 1/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 2/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 3/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 4/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 5/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 6/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 7/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 8/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 9/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 10/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 11/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 12/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 13/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 14/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 15/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 16/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 17/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 18/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 19/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 20/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 21/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 22/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 23/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 24/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 25/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 26/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 27/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 28/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 29/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 30/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 31/32 of page 7..... | 
+Mon, 07 Feb 2022 19:22:00 GMT | INFO | app.log | Scraping item 32/32 of page 7..... | 
+Mon, 07 Feb 2022 19:23:48 GMT | ERROR | app.log | Retries other errors more than 3 times, exiting request | 
+Mon, 07 Feb 2022 19:23:48 GMT | ERROR | app.log | failed url https://www.otomoto.pl/oferta/mercedes-benz-actros-1846-actros-1846-ls-sprowadzony-stan-idealny-ID6ElLZB.html | 
+Mon, 07 Feb 2022 19:24:09 GMT | ERROR | app.log | Retries other errors more than 3 times, exiting request | 
+Mon, 07 Feb 2022 19:24:09 GMT | ERROR | app.log | failed url https://www.otomoto.pl/oferta/mercedes-benz-actros-18-480-giga-space-i-cool-z-niemiec-bez-retardera-navi-euro-6-ID6EfBGv.html | 
+Mon, 07 Feb 2022 19:24:09 GMT | INFO | app.log | Page 7 has 30 items | 
+Mon, 07 Feb 2022 19:24:09 GMT | INFO | app.log | Expected 32 items, but got 30, retrying page 7 | 
+Mon, 07 Feb 2022 19:24:09 GMT | INFO | app.log | Scraping page 7...... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Total ads found 32 | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping 32 items | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 1/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 2/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 3/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 4/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 5/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 6/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 7/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 8/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 9/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 10/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 11/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 12/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 13/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 14/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 15/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 16/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 17/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 18/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 19/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 20/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 21/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 22/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 23/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 24/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 25/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 26/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 27/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 28/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 29/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 30/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 31/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:14 GMT | INFO | app.log | Scraping item 32/32 of page 7..... | 
+Mon, 07 Feb 2022 19:24:44 GMT | INFO | app.log | Page 7 has 32 items | 
+Mon, 07 Feb 2022 19:24:44 GMT | INFO | app.log | Successfully scraped 32 items of page 7 | 
+Mon, 07 Feb 2022 19:24:44 GMT | INFO | app.log | Successfully scraped 32 items of page 7 | 
+Mon, 07 Feb 2022 19:24:44 GMT | INFO | app.log | Successfully scraped 32 items of page 7 | 
+Mon, 07 Feb 2022 19:24:44 GMT | INFO | app.log | Successfully scraped 32 items of page 7 | 
+Mon, 07 Feb 2022 19:24:44 GMT | INFO | app.log | Worker created for page 8 | 
+Mon, 07 Feb 2022 19:24:44 GMT | INFO | app.log | Scraping page 8...... | 
+Mon, 07 Feb 2022 19:24:53 GMT | INFO | app.log | Total ads found 18 | 
+Mon, 07 Feb 2022 19:24:53 GMT | INFO | app.log | Scraping 18 items | 
+Mon, 07 Feb 2022 19:24:53 GMT | INFO | app.log | Scraping item 1/18 of page 8..... | 
+Mon, 07 Feb 2022 19:24:53 GMT | INFO | app.log | Scraping item 2/18 of page 8..... | 
+Mon, 07 Feb 2022 19:24:53 GMT | INFO | app.log | Scraping item 3/18 of page 8..... | 
+Mon, 07 Feb 2022 19:24:53 GMT | INFO | app.log | Scraping item 4/18 of page 8..... | 
+Mon, 07 Feb 2022 19:24:53 GMT | INFO | app.log | Scraping item 5/18 of page 8..... | 
+Mon, 07 Feb 2022 19:24:53 GMT | INFO | app.log | Scraping item 6/18 of page 8..... | 
+Mon, 07 Feb 2022 19:24:53 GMT | INFO | app.log | Scraping item 7/18 of page 8..... | 
+Mon, 07 Feb 2022 19:24:53 GMT | INFO | app.log | Scraping item 8/18 of page 8..... | 
+Mon, 07 Feb 2022 19:24:53 GMT | INFO | app.log | Scraping item 9/18 of page 8..... | 
+Mon, 07 Feb 2022 19:24:53 GMT | INFO | app.log | Scraping item 10/18 of page 8..... | 
+Mon, 07 Feb 2022 19:24:53 GMT | INFO | app.log | Scraping item 11/18 of page 8..... | 
+Mon, 07 Feb 2022 19:24:53 GMT | INFO | app.log | Scraping item 12/18 of page 8..... | 
+Mon, 07 Feb 2022 19:24:53 GMT | INFO | app.log | Scraping item 13/18 of page 8..... | 
+Mon, 07 Feb 2022 19:24:53 GMT | INFO | app.log | Scraping item 14/18 of page 8..... | 
+Mon, 07 Feb 2022 19:24:53 GMT | INFO | app.log | Scraping item 15/18 of page 8..... | 
+Mon, 07 Feb 2022 19:24:53 GMT | INFO | app.log | Scraping item 16/18 of page 8..... | 
+Mon, 07 Feb 2022 19:24:53 GMT | INFO | app.log | Scraping item 17/18 of page 8..... | 
+Mon, 07 Feb 2022 19:24:53 GMT | INFO | app.log | Scraping item 18/18 of page 8..... | 
+Mon, 07 Feb 2022 19:25:01 GMT | ERROR | app.log | 404 not found, exiting request | 
+Mon, 07 Feb 2022 19:25:01 GMT | ERROR | app.log | Retries other errors more than 3 times, exiting request | 
+Mon, 07 Feb 2022 19:25:01 GMT | ERROR | app.log | failed url https://www.otomoto.pl/oferta/mercedes-benz-actros-5-mercedes-benz-actros-5-kabina-l-ciagnik-siodlowy-bialy-rok-2021-ID6ElWEk.html | 
+Mon, 07 Feb 2022 19:25:11 GMT | INFO | app.log | Page 8 has 17 items | 
+Mon, 07 Feb 2022 19:25:11 GMT | INFO | app.log | Successfully scraped 17 items of page 8 | 
+Mon, 07 Feb 2022 19:25:11 GMT | INFO | app.log | Total ads scraped: 241 | 
+Mon, 07 Feb 2022 19:25:11 GMT | INFO | app.log | Scraped data saved to output/data.json | 
